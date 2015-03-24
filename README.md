@@ -5,7 +5,7 @@ Basic Note, .TXT file save、edit, built using Swift, without storyboard
 -------------------------------------------------------------------
 
 自動對應多尺寸螢幕的簡易記事本，能建立、儲存、編輯及刪除 .TXT 文字檔
-![image](https://raw.githubusercontent.com/Smith0314/Basic-Note/master/screenshots/iphone5s.png) ![image](https://raw.githubusercontent.com/Smith0314/Basic-Note/master/screenshots/iphone6.png) 
+![image](https://raw.githubusercontent.com/Smith0314/Basic-Note/master/screenshots/iphone5s6.png) 
 
 .        
 
