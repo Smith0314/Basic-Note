@@ -13,6 +13,9 @@
 		04C30D4A1ABB2E7400FFFB12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C30D491ABB2E7400FFFB12 /* Images.xcassets */; };
 		04C30D4D1ABB2E7400FFFB12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C30D4B1ABB2E7400FFFB12 /* LaunchScreen.xib */; };
 		04C30D591ABB2E7400FFFB12 /* Basic_NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C30D581ABB2E7400FFFB12 /* Basic_NoteTests.swift */; };
+		04DD6AB61AC17788008D52B4 /* smith-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04DD6AB51AC17788008D52B4 /* smith-font.ttf */; };
+		04F012D31AC1B1B900BE4272 /* iphone5s.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F012D11AC1B1B900BE4272 /* iphone5s.png */; };
+		04F012D41AC1B1B900BE4272 /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F012D21AC1B1B900BE4272 /* iphone6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		04C30D521ABB2E7400FFFB12 /* Basic-NoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic-NoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C30D571ABB2E7400FFFB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C30D581ABB2E7400FFFB12 /* Basic_NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_NoteTests.swift; sourceTree = "<group>"; };
+		04DD6AB51AC17788008D52B4 /* smith-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "smith-font.ttf"; sourceTree = "<group>"; };
+		04F012D11AC1B1B900BE4272 /* iphone5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5s.png; sourceTree = "<group>"; };
+		04F012D21AC1B1B900BE4272 /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				04C30D3F1ABB2E7400FFFB12 /* Basic-Note */,
 				04C30D551ABB2E7400FFFB12 /* Basic-NoteTests */,
 				04C30D3E1ABB2E7400FFFB12 /* Products */,
+				04F012D01AC1B1B900BE4272 /* screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +97,7 @@
 		04C30D401ABB2E7400FFFB12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04DD6AB51AC17788008D52B4 /* smith-font.ttf */,
 				04C30D411ABB2E7400FFFB12 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +118,15 @@
 				04C30D571ABB2E7400FFFB12 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F012D01AC1B1B900BE4272 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04F012D11AC1B1B900BE4272 /* iphone5s.png */,
+				04F012D21AC1B1B900BE4272 /* iphone6.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F012D31AC1B1B900BE4272 /* iphone5s.png in Resources */,
+				04F012D41AC1B1B900BE4272 /* iphone6.png in Resources */,
 				04C30D481ABB2E7400FFFB12 /* Main.storyboard in Resources */,
 				04C30D4D1ABB2E7400FFFB12 /* LaunchScreen.xib in Resources */,
 				04C30D4A1ABB2E7400FFFB12 /* Images.xcassets in Resources */,
+				04DD6AB61AC17788008D52B4 /* smith-font.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +425,7 @@
 				04C30D5E1ABB2E7400FFFB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C30D5F1ABB2E7400FFFB12 /* Build configuration list for PBXNativeTarget "Basic-NoteTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				04C30D611ABB2E7400FFFB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
