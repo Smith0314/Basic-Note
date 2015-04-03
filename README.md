@@ -1,7 +1,7 @@
 # Basic-Note
 Basic Note, .TXT file save、edit, built using Swift, without storyboard
 
-*Create、Save、Edit and Remove .TXT Document File
+*Create、Save、Edit And Remove .TXT Document File
 -------------------------------------------------------------------
 
 自動對應多尺寸螢幕的簡易記事本，能建立、儲存、編輯及刪除 .TXT 文字檔
@@ -12,7 +12,7 @@ Basic Note, .TXT file save、edit, built using Swift, without storyboard
 
 .        
 
-*檔案存取
+*Save .TXT File
 -------------------------------------------------------------------
 
 使用 NSFileManger 來操作檔案的生成及管理
@@ -25,7 +25,7 @@ Basic Note, .TXT file save、edit, built using Swift, without storyboard
 
 .        
 
-*UI 配置
+*UI Layout
 -------------------------------------------------------------------
 
 事實上檔案管理的 code 佔的成分並不多，畢竟是比 CoreData 簡易的儲存方式，大部份的 code 還是在 UI 的視覺 Layout 上，包括自訂樣式的 UITextView、UITableViewCell，自動對應不同螢幕的 Layout ..等
