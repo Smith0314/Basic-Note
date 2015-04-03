@@ -12,7 +12,7 @@ Basic Note, .TXT file save、edit, built using Swift, without storyboard
 
 .        
 
-*Save .TXT File
+*Save And Managed .TXT File
 -------------------------------------------------------------------
 
 使用 NSFileManger 來操作檔案的生成及管理
